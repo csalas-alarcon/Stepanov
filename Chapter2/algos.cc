@@ -12,9 +12,9 @@ int half(int n) { return n >> 1; }
 
 int multiply1(int n, int a) {
     if (n==1) return a;
-    int result = multiply1(hal(n), a + a);
+    int result = multiply1(half(n), a + a);
     if (odd(n)) result = result +a ;
-    return result
+    return result;
 }
 
 // Hardcoded Mult Algo for 15
